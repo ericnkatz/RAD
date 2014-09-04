@@ -214,17 +214,19 @@ article {
 				padding-left:0;
 			}
 		}
+		&:hover {
+			> img {
+				box-shadow:0 3px 15px rgba(0,0,0,1);
+				transform:scale(1.15) translateY(2px);
+				transition-delay: 0ms;
+			}
+		}
 	}
 	&:hover {
 		.post {
 			box-shadow:0 3px 15px rgba(0,0,0,1);
 			transition-delay: 0ms;
 			.message {
-				transition-delay: 0ms;
-			}
-			> img {
-				box-shadow:0 3px 15px rgba(0,0,0,1);
-				transform:scale(1.15) translateY(2px);
 				transition-delay: 0ms;
 			}
 		}
