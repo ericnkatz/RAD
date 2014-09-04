@@ -60,7 +60,7 @@ body {
 		position: relative;
 		min-height: 1.5em;
 		box-shadow:0 3px 9px rgba(0, 0, 0, 0.2);
-		line-height: 1.6;
+		line-height:1.6;
 		img {
 			position: absolute;
 			top:0;
@@ -205,6 +205,7 @@ article {
 			transition-timing-function: ease-in;
 			transition-delay: 0ms;
 			box-shadow:0 3px 9px rgba(0, 0, 0, 0.2);
+			line-height:1.6;
 		}
 		&.odd {
 			> img {
