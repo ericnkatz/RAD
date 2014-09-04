@@ -1,0 +1,9 @@
+/vendor
+composer.phar
+.env.*
+.DS_Store
+Thumbs.db
+/.sass-cache
+/node_modules
+.tags
+.tags_sorted_by_file
